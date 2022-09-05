@@ -2883,18 +2883,18 @@ span.sale {
     background: #F7F7F7;
     padding: 15px 0;
 }
-.big-bajar-breadcrump{}
-.big-bajar-breadcrump li{
+.bigBajar-breadcrump{}
+.bigBajar-breadcrump li{
     display: inline-block;
 }
-.big-bajar-breadcrump li,
-.big-bajar-breadcrump li:hover a{
+.bigBajar-breadcrump li,
+.bigBajar-breadcrump li:hover a{
     color: #d72828;
 }
-.big-bajar-breadcrump li a {
+.bigBajar-breadcrump li a {
     color: #2c2c2c;
 }
-.big-bajar-breadcrump li:not(:last-child):after{
+.bigBajar-breadcrump li:not(:last-child):after{
     content: "\E315";
     display: inline-block;
     font-family: "Material Icons";
@@ -3114,11 +3114,11 @@ span.sale {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-.big-bajar-form-group label {
+.bigBajar-form-group label {
     float: left;
     width: 100px;
 }
-.big-bajar-form-group .control-form {
+.bigBajar-form-group .control-form {
     background: #fff none repeat scroll 0 0;
     border: 1px solid #ebebeb;
     height: 40px;
@@ -3128,35 +3128,35 @@ span.sale {
     border-radius: 3px;
     margin-bottom: 20px;
 }
-.big-bajar-form-group .control-form:focus{
+.bigBajar-form-group .control-form:focus{
     color: #2c2c2c;
 }
-.big-bajar-form-group {
+.bigBajar-form-group {
     overflow: hidden;
 }
-.big-bajar-form-group .review-status {
+.bigBajar-form-group .review-status {
     float: left;
     margin-left: 40px;
     margin-right: 0;
 }
-.big-bajar-form-group .review-status a{
+.bigBajar-form-group .review-status a{
     color: #C7C7C7;
     float: left;
 }
-.big-bajar-form-group .review-status a:hover{
+.bigBajar-form-group .review-status a:hover{
     color: #ff5501;
 }
-.big-bajar-form-group .review-status a i{
+.bigBajar-form-group .review-status a i{
     color: inherit;
 }
 .form-group sup{
     color: #d72828;
 }
-.big-bajar-form-group textarea.control-form {
+.bigBajar-form-group textarea.control-form {
   height: 100px;
   max-width: 380px;
 }
-.big-bajar-form-group.submit-button .control-form{
+.bigBajar-form-group.submit-button .control-form{
     background: #fff none repeat scroll 0 0;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -3170,7 +3170,7 @@ span.sale {
     padding: 0px 20px;
     text-transform: inherit;
 }
-.big-bajar-form-group.submit-button .control-form:hover{
+.bigBajar-form-group.submit-button .control-form:hover{
     border: 1px solid #d72828;
     color: #fff;
     background: #d72828;
@@ -3470,21 +3470,21 @@ span.sale {
     height: 40px;
 }
 /*--------- 25. Cart page ---------*/
-.big-bajar-table-area a{
+.bigBajar-table-area a{
 	color: #6a6a6a;
 }
 .table-responsive{
 	overflow-x: inherit;
 }
-.big-bajar-table-area table{
+.bigBajar-table-area table{
 	margin-bottom: 0;
 	margin-top: 30px;
 	border:1px solid #ebebeb;
 }
-.big-bajar-table-area table tr td{
+.bigBajar-table-area table tr td{
 	border:1px solid #ebebeb;
 }
-.big-bajar-table-area table thead tr th{
+.bigBajar-table-area table thead tr th{
 	border: 1px solid #ebebeb;
 	color: #2c2c2c;
 	font-size: 14px;
@@ -3495,10 +3495,10 @@ span.sale {
 	font-weight:500;
 	line-height:23px;
 }
-.big-bajar-table-area table tbody{
+.bigBajar-table-area table tbody{
 	background-color:#fff;
 }
-.big-bajar-table-area table tbody tr td{
+.bigBajar-table-area table tbody tr td{
 	vertical-align:middle;
 	padding:15px 5px;
 	border-top: 0 solid transparent ;
@@ -3571,7 +3571,7 @@ span.sale {
 .cart-page-edit a{
 	font-size:16px;
 }
-.big-bajar-table-area .default-button a{
+.bigBajar-table-area .default-button a{
 	color: #fff;
 	margin: 0 5px;
 }
@@ -4002,7 +4002,7 @@ thead {
     background-color: #d72828;
     color: #fff;
 }
-.dashboard-content .big-bajar-table-area table{
+.dashboard-content .bigBajar-table-area table{
     margin-top: 0;
 }
 .custom-radio {

@@ -44,8 +44,8 @@
     }
     minicart();
 
-    // big-bajar Countdown
-    function big-bajarCountdown() {
+    // Korando Countdown
+    function korandoCountdown() {
         $('[data-countdown]').each(function() {
           var $this = $(this),
           finalDate = $this.data('countdown');
@@ -54,7 +54,7 @@
           });
         });       
     }
-    big-bajarCountdown(); 
+    korandoCountdown(); 
 
 
 
@@ -70,7 +70,7 @@
     
 
     /*====== Cart Plus Minus Button ======*/
-    function big-bajarCartQuantity(){
+    function korandoCartQuantity(){
         $(".cart-plus-minus").append('<div class="dec qtybutton">-</div><div class="inc qtybutton">+</div>');
             $(".qtybutton").on("click", function() {
                 var $button = $(this);
@@ -88,11 +88,11 @@
                 $button.parent().find("input").val(newVal);
         });
     }
-    big-bajarCartQuantity();
+    korandoCartQuantity();
     
     
     /* slider active */
-    function big-bajarSliderActive(){
+    function korandoSliderActive(){
         $('.slider-active').owlCarousel({
             loop: true,
             nav: false,
@@ -120,7 +120,7 @@
         classSelector = $('.slider-area .owl-dots');
         classSelector.addClass(addContainerClass);
     }
-    big-bajarSliderActive();    
+    korandoSliderActive();    
 
     /* checkout page toggle function  */   
     $('#showlogin').on('click', function() {
